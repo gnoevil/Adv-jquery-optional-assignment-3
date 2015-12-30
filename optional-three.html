@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>Advanced jQuery Optional Assignment 3</title>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="./optional-three.css">
+		<script>
+				$(document).ready(function(){
+				$("form").submit(function(){
+
+					var fname = $("#fname").val();
+					var lname = $("#lname").val();
+					var dscptn = $("#dscptn").val();
+					var name = $("#name").append(fname + " " + lname);
+					var entry = $(".entry").click(function(){ 
+						$(this).val(dscptn);
+					var contacts = $("#contacts").append(name + entry);
+						
+				$(".text_input").val()
+
+					return false;
+
+					
+					
+					
+					
+					});
+					 }); 
+						
+
+					
+						
+					});
+				
+		</script>
+	</head>
+	<body>
+		<div id="left">
+			<form>
+			<p>First Name:<input class="text_input" id="fname" type="text" placeholder="" /></p>
+			<p>Last Name:<input class="text_input" id="lname" type="text" placeholder="" /></p>
+			<p>Description:<input class="text_input" id="dscptn" type="text" placeholder="Enter description:" /></p>
+			<p><input type="submit" value="Add Contact" /></p>
+			</form>
+		</div>
+		<div id="right">
+			<div id="contacts">
+				<h3 class="name"></h3>
+					<p class="entry">"Click for Description"</p>
+			</div>
+		</div>
+	</body>
+</html>
+

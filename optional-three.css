@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+}
+html {
+	margin: 0 auto;
+}
+body {
+	max-width: 900px;
+	min-height: 700px;
+	margin: 0 auto;
+}
+table {
+	width: 50%;
+	margin: 10px 0;
+}
+#users {
+	width: 50%;
+	margin: 10px 0;
+	/*border: 2px black solid;*/
+
+
+}
+th {
+	margin: 0 5px;
+}
+div {
+	max-width: 30%;
+	margin: 20px 20px;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+input {
+	margin: 10px 0;
+	display: inline-block;
+
+}
+#dscptn {
+	height: 100px;
+	min-width: 100%;
+	display: block;
+}
+p {
+	display: block;
+
+}
+.entry {
+	display: none;
+}
+form {
+	text-align: left;
+	min-width: 30%;
+	margin: 20px 0;
+}
+
+
+
+
+
